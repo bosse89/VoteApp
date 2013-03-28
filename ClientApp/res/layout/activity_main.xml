@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConnecterActivity" >
+
+    <Button
+        android:id="@+id/connect_TCP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/connect_bt"
+        android:layout_alignRight="@+id/connect_bt"
+        android:layout_centerVertical="true"
+        android:text="Connect using TCP" />
+
+    <Button
+        android:id="@+id/connect_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connect_TCP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Connect using bluetooth" />
+
+</RelativeLayout>
