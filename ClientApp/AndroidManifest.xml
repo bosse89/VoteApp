@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.clientapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.clientapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.clientapp.ConnecterActivity"
+            android:label="@string/title_activity_connecter" >
+            <intent-filter>
+                <action android:name="com.example.clientapp.ConnecterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.clientapp.ChatActivity"
+            android:label="@string/title_activity_chat" >
+            <intent-filter>
+                <action android:name="com.example.clientapp.ChatActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.clientapp.ConnectBTActivity"
+            android:label="@string/title_activity_connect_bt" >
+            <intent-filter>
+                <action android:name="com.example.clientapp.ConnectBTActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.clientapp.VoteActivity"
+            android:label="@string/title_activity_vote" >
+            <intent-filter>
+                <action android:name="com.example.clientapp.VoteActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.clientapp.VoteActivity1"
+            android:label="@string/title_activity_vote_activity1" >
+            
+            <intent-filter>
+                <action android:name="com.example.clientapp.VoteActivity1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
